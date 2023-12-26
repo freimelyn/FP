@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="rome.html">ROME AND RATE</a></li>
+            <li><a href="food.html">FOOD</a></li>
+        </ul>
+        <ul>
+            <li><img src="images/logo.jpg" alt="logo">
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="rome.html">ROME AND RATE</a></li>
+                <li class="hideOnMobile"><a href="food.html">FOOD</a></li>
+            <li class="menu-button"onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }   
+    </script>
+    <div>
+        <h2 class="group3">Food Menu</h2>
+    </div>
+    <section class="section1">
+        <div class="container"> 
+            <div class="wrapper">
+                <div class="card">           
+                    <img class="image2" src="images/taco.jpg" alt="">
+                </div>
+                    <div class="content">
+                        <h3>Taco - 90</h3>
+                        <p>Beef/Chicken</p>
+                        <p>Upgrade to Shrimp/Fish +20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image3" src="images/quesadillas.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Quesadillas - 100</h3>
+                        <p>Add Beef/Chicken +50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image4" src="images/nachos.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nachos - 180</h3>
+                            <p>Good for Sharing</p>
+                            <p>Add Beef/Chicken +100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image5" src="images/patatas.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Patatas - 180</h3>
+                        <p>Good for Sharing</p>
+                        <p>Add Beef/Chicken +100</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image6" src="images/burrito.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Burrito - 280</h3>
+                        <p>Beef/Chicken</p>
+                        <p>Upgrade to Shrimp/Fish +20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div>
+        <h2 class="group3">Drink Menu</h2>
+    </div>
+    <section class="section1">
+        <div class="container"> 
+            <div class="wrapper">
+                <div class="card">           
+                    <img class="image7" src="images/beer.jpg" alt="">
+                </div>
+                    <div class="content">
+                        <h3>Beer - 90</h3>
+                        <p>San Mig Light/Pale Pilsen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image8" src="images/cocktails.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Cocktails - 170</h3>
+                        <p>Hakuna Matata/Margarita</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image9" src="images/soda.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Soda - 55</h3>
+                            <p>Coke/Diet Coke/Coke Zero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image10" src="images/nonalcoholic.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Non-Alcoholic</h3>
+                        <p>Horchata - 90</p>
+                        <p>Fresca - 90</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <div>
+        <h2 class="group3">Traditional Roll</h2>
+    </div>
+    <section class="section1">
+        <div class="container"> 
+            <div class="wrapper">
+                <div class="card">           
+                    <img class="image11" src="images/sushi.jpg" alt="">
+                </div>
+                    <div class="content">
+                        <h3>Stuffed Inari Sushi - 350</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                    <img class="image12" src="images/californiaroll.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>California Roll - 175</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                    <img class="image13" src="images/salmonuramaki.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Salmon Uramaki - 280</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image14" src="images/kanimaki.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kani Maki - 175</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <h2 class="group3">Pizza Menu</h2>
+    </div>
+    <section class="section1">
+        <div class="container"> 
+            <div class="wrapper">
+                <div class="card">           
+                    <img class="image15" src="images/cheesepizza.jpg" alt="">
+                </div>
+                    <div class="content">
+                        <h3>Cheese Pizza - 300</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image16" src="images/garlic and cheese pizza.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Garlic and Cheese Pizza - 330</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image17" src="images/peperonipizza.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Peperoni Pizza - 400</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image18" src="images/Hawaiianpizza.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Hwaiian Pizza - 350</h3>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                        <img class="image19" src="images/hungarianpizza.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Hungarian Pizza - 400</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+        <div class="contact">
+            <h2>Contact as via online.</h2>
+            <h6>Facebook Account: <a href="https://www.facebook.com/HakunaMatataresort.ph"></a>click here!</h6>
+            <h6>Email Account: hakunamatataresort.ph@gmail.com</h6>
+            <h6>Cellphone Number: 0960 935 4863</h6>
+        </div>
+</body>
+</html>

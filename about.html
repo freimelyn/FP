@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="rome.html">ROME AND RATE</a></li>
+            <li><a href="food.html">FOOD</a></li>
+        </ul>
+        <ul>
+            <li><img src="images/logo.jpg" alt="logo">
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="rome.html">ROME AND RATE</a></li>
+                <li class="hideOnMobile"><a href="food.html">FOOD</a></li>
+            <li class="menu-button"onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li> 
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }   
+    </script>
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>Nestled in one of the most peaceful beach front villages in Pagudpud near the northern tip of Luzon, Hakuna Matata offers picturesque views of awe-inspiring sunsets, swaying green palms, and white sand beaches that stretch for miles. The beautiful property, aptly named after the Swahili phrase, is the perfect spot for travellers who want to experience island life tranquility. But this doesn’t mean that you will not have a window to the outside world as Hakuna Matata
+            rooms have flat screen television sets fitted with Netflix and Youtube through a stable fiber optic Internet access. </p>
+    </div>
+    <div class="container">
+        <section class="about">
+            <div class="about-image">
+                <img src="images/bc3.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2>Warm Embrace</h2>
+                <p>From the Swahili phrase “hakuna matata,” which means “no worries,” hat’s exactly what you’ll find at Hakuna Matata Beach Resort. It’s the perfect place to forget your troubles and simply enjoy the moment.
+                    Whether you’re soaking up the sun on the white sand beach, swimming in the crystal-clear waters of the South China Sea, or exploring the nearby town of Laoag, Hakuna Matata Beach Resort is sure to help you relax and unwind.</p>
+                <a href="http://www.pagudpudresorts.com/">Read More</a>
+            </div>
+        </section>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="about-what">
+        <h5>AMENITIES</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="1">
+                        Free Wifi
+                    </th>
+                    <th colspan="1">
+                       Beach Bar
+                    </th>
+                </tr>
+                <br>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/freewifi.png" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/thebar.jpg" alt="pc">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="1">
+                        Outdoor Shower
+                    </th>
+                    <th colspan="1">
+                        Free Breakfast
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/shower.jpg" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/breakfast.jpg" alt="pc">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="1">
+                        Hammocks
+                    </th>
+                    <th colspan="1">
+                        On Call Manicure and Pedicure
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/hammocks.jpg" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/manicure.jpg" alt="pc">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="1">
+                        Gated Free Parking Area
+                    </th>
+                    <th colspan="1">
+                        Swings
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/view.jpg" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/swing.jpg" alt="pc">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="1">
+                        Direct Beach Front Access
+                    </th>
+                    <th colspan="1">
+                        Swing Daybed
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/direct.jpg" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/swingswing.jpg" alt="pc">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="1">
+                        Shaded Daybed
+                    </th>
+                    <th colspan="1">
+                        On Call Massage Service
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                      <img src="images/shadeddaybed.jpg" alt="pic">
+                    </td>
+                    <td colspan="1">
+                        <img src="images/view.jpg" alt="pc">
+                    </td>
+                </tr>
+            </thead>  
+        </table>
+
+    </div> 
+    <div class="contact">
+        <h2>Contact as via online.</h2>
+        <h6>Facebook Account: <a href="https://www.facebook.com/HakunaMatataresort.ph"></a>click here!</h6>
+        <h6>Email Account: hakunamatataresort.ph@gmail.com</h6>
+        <h6>Cellphone Number: 0960 935 4863</h6>
+
+    </div>
+</body>
+</html>
